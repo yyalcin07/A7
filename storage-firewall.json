@@ -1,0 +1,87 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/20a59452-2140-4819-a2b1-068ac40ec2b1/resourceGroups/rg1/providers/Microsoft.Storage/storageAccounts/awese",
+    "name": "awese",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2023-03-03T19:43:54.4386627Z",
+            "key2": "2023-03-03T19:43:54.4386627Z"
+        },
+        "allowCrossTenantReplication": true,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "resourceAccessRules": [],
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [
+                {
+                    "id": "/subscriptions/20a59452-2140-4819-a2b1-068ac40ec2b1/resourceGroups/rg0/providers/Microsoft.Network/virtualNetworks/vnet0/subnets/Subnet0",
+                    "action": "Allow",
+                    "state": "Succeeded"
+                }
+            ],
+            "ipRules": [
+                {
+                    "value": "99.229.98.199",
+                    "action": "Allow"
+                },
+                {
+                    "value": "74.235.154.202",
+                    "action": "Allow"
+                }
+            ],
+            "defaultAction": "Deny"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2023-03-03T19:43:54.4542873Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2023-03-03T19:43:54.4542873Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2023-03-03T19:43:54.2824108Z",
+        "primaryEndpoints": {
+            "dfs": "https://awese.dfs.core.windows.net/",
+            "web": "https://awese.z13.web.core.windows.net/",
+            "blob": "https://awese.blob.core.windows.net/",
+            "queue": "https://awese.queue.core.windows.net/",
+            "table": "https://awese.table.core.windows.net/",
+            "file": "https://awese.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "westus",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://awese-secondary.dfs.core.windows.net/",
+            "web": "https://awese-secondary.z13.web.core.windows.net/",
+            "blob": "https://awese-secondary.blob.core.windows.net/",
+            "queue": "https://awese-secondary.queue.core.windows.net/",
+            "table": "https://awese-secondary.table.core.windows.net/"
+        }
+    }
+}

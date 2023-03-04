@@ -3,7 +3,7 @@
 
 2- creating rg with storage account and fileshare/blob in it
 
-3- configuring firewall settings to enable our vm to connect fireshare
+3- configuring firewall settings to enable our vm to connect fileshare
 
-4- connecting our vm to the fireshare
+4- connecting our vm to the fileshare
 
